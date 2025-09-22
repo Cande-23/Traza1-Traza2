@@ -1,5 +1,6 @@
 # Traza1-Traza2
 Traza 1 + Traza 2 (Java + Lombok)
+
 Este repositorio abarca dos dominios principales, organizados en trazas conceptuales que reflejan una estructura jerárquica y modular:
 
 Traza A: País → Provincia → Localidad → Domicilio → Sucursal → Empresa
