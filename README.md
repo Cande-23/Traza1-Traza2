@@ -9,7 +9,7 @@ Traza B: Artículo → (Insumo | Manufacturado) → Detalle → Categoría → I
 
 Ambas trazas convergen mediante la clase puente SucursalArticulo, que permite representar el inventario específico de cada sucursal (stock y, opcionalmente, el precio), evitando acoplamientos rígidos entre los modelos.
 
-Tecnologías y lineamientos implementados:
+Tecnologías y lineamientos implementados
 
 Java con soporte de Lombok para simplificar código repetitivo (getters, setters, builders, etc.).
 
@@ -19,7 +19,7 @@ Métodos helper que garantizan la consistencia de las asociaciones (por ejemplo,
 
 Métodos toString limpios, excluyendo referencias circulares y colecciones grandes.
 
-Qué hace el main:
+¿Qué hace el main?:
 
 Alta de entidades de ambos dominios (traza A y B).
 
